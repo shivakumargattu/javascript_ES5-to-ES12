@@ -163,3 +163,22 @@ console.log(arr.includes(10))
 
 console.log(2**2) //output 4
 console.log(5**2) //25
+
+//// ES8  modules
+
+// obeject entites  this method return an array key & value as an array
+
+
+let colleg={
+    brach:"ECE",
+    section:"A",
+    strength:"90",
+    boys:"45",
+    girls:"35"
+}
+
+let objArray=Object.entries(colleg) //object.entries is key pair convert into the single arry 
+console.log(objArray)
+
+let objArryvalues=Object.values(colleg)
+console.log(objArryvalues)
