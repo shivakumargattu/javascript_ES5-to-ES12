@@ -195,3 +195,14 @@ let fletd=nested.flat(3)
 
 
 console.log(fletd)
+
+/// to string
+///trimStart deleted the Empty spaces from the begining of the word
+/// trimEnd deleted the empty spaces from the end of the array
+
+/// objectFrom Entries this array contvertd into object
+
+
+let fromObj=[["name","gattu"], ["age",35],["current job", "Network Engineer"]]
+
+console.log(Object.fromEntries(fromObj))
