@@ -182,3 +182,16 @@ console.log(objArray)
 
 let objArryvalues=Object.values(colleg)
 console.log(objArryvalues)
+
+
+////ES10 modules
+
+
+//flat flat method is used to convert into nested array's into single array
+
+let nested=[1,2,3,[1,4,[5,6,[30,40],60]]]
+
+let fletd=nested.flat(3)
+
+
+console.log(fletd)
