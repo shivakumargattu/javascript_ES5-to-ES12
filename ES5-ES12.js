@@ -206,3 +206,11 @@ console.log(fletd)
 let fromObj=[["name","gattu"], ["age",35],["current job", "Network Engineer"]]
 
 console.log(Object.fromEntries(fromObj))
+
+
+/// ES11
+
+let intention=null // wen add the data nullesh opartor for intentionally to mention empty
+// Optinal Chaining  is a safe way to access 
+
+//
