@@ -213,4 +213,10 @@ console.log(Object.fromEntries(fromObj))
 let intention=null // wen add the data nullesh opartor for intentionally to mention empty
 // Optinal Chaining  is a safe way to access 
 
-//
+//ES12 
+
+/// logical  oparator
+
+console.log(20 && 30) /// output 30 given right side value
+
+console.log(20||30) /// output 20 given left side value
