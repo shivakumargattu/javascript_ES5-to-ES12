@@ -158,3 +158,8 @@ console.log(boys)
 //includes this method if the user is found in given array return true othe wise return false
 
 console.log(arr.includes(10))
+
+// js exponettional oparetor to find the suqre of value lik that
+
+console.log(2**2) //output 4
+console.log(5**2) //25
