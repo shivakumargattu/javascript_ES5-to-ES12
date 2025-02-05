@@ -222,5 +222,57 @@ console.log(20 && 30) /// output 30 given right side value
 console.log(20||30) /// output 20 given left side value
 
 //OOP concepstents
+// OOPs object orianted programing its all abount claas and Objects 
 
+// oops as 4 diffrent concepts 
+//Absctrion hiding the unnesassory imfotmation from the users.
+
+class ATM{
+    constructor(withdra){
+        this.balance=1000;
+        
+        this.withdra=withdra
+    }
+    getAmount(){
+        let minbalance=500
+        if(this.balance-this.withdra>=minbalance){
+            console.log("Withdra Successful")
+        }
+        else{
+            console.log("insfficent balance")
+        }
+    }
+}
+
+
+let Amount= new ATM(500)
+Amount.minbalance=0
+
+console.log(Amount.getAmount())
+
+
+/// Enchapulestion : IT is an Mechanism of bundling data variables and methods together & hides them from other classes.
+
+class Person{
+    constructor(name,age,salary){
+        this.name=name;
+        this.age=age;
+        this.salary=salary;
+    }
+
+    getName(){
+        console.log(this.name)
+    }
+    getAge(){
+        console.log(this.age)
+    }
+    getSalary(){
+       console.log(this.salary)
+    }
+}
+
+let ObjPerson=new Person("shiva",25,50000);
+ObjPerson.getAge()
+ObjPerson.getName()
+ObjPerson.getSalary()
 
