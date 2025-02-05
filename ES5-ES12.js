@@ -220,3 +220,7 @@ let intention=null // wen add the data nullesh opartor for intentionally to ment
 console.log(20 && 30) /// output 30 given right side value
 
 console.log(20||30) /// output 20 given left side value
+
+//OOP concepstents
+
+
